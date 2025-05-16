@@ -1,0 +1,88 @@
+:root{
+  --main-color: #6744c7;
+  --second-color: #8e72e1;
+  --bg1-color: #1e1842;
+  --bg2-color: #1e1849;
+  --white-color: #eee;
+  --dark-color: #000000;
+  --main-transition: .5s;
+}
+.main-c {
+  color: var(--main-color) ;}
+.second-c {
+  color: var(--second-color) ;}
+.bg1 {
+  background-color: var(--bg1-color) ;}
+.bg2 {
+  background-color: var(--bg2-color) ;}
+.white-c {
+  color: var(--white-color) ;}
+.dark-c {
+  color: var(--dark-color) ;}
+.main-transition {
+transition:   var(--main-transition)}
+;
+body {
+  background-color: var(--bg1-color);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@media (max-width: 762px) {
+  .h-section{
+    height: calc(100vh - 163px);
+  }
+}
+@media (min-width: 762px) {
+  .h-section{
+    height: calc(100vh - 137px);
+  }
+}
+@media (min-width: 972px) {
+  .h-section{
+    height: calc(100vh - 141px);
+  }
+}
+@media (min-width: 1200px) {
+  .h-section{
+    height: calc(100vh - 141px);
+  }
+}
+.navbar{
+  background-color: #4e25c0;
+}
+.imglogo{
+  width: 60px;
+}
+.imglogo img{
+  width: 100%;
+  border-radius: 50%;
+}
+.active{
+  background-color: #eee;
+}
+
+/* landing */
+
+.header .image img{
+  width:100%;
+}
+@media (max-width: 972px) {
+  .header .image{
+    width: 100%;
+  }
+}
+@media (min-width: 972px) {
+  .header .image{
+    max-width: 60%;
+  }
+  .header .info{
+    max-width: 40%;
+  }
+}
+
+
+
+
+
