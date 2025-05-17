@@ -147,7 +147,7 @@ code {
   border:3px solid var(--main-color);
   z-index: 1;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
 .about .info p::after{
   content: "";
@@ -169,3 +169,32 @@ code {
     font-size: 15px;
   }
 }
+
+
+/* skills */
+.skills .image{
+  width: 50%;
+  height: 50%;
+}
+.skills .image img{
+  width: 100%;
+}
+@media (max-width: 972px) {
+.skills .image{
+  width: 70%;
+  margin-bottom: 20px;
+}
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,14 +15,14 @@ const About = () => {
   return (
     <div className='h-section about bg2'>
       <Container className='h-100 '>
-        <div className='title-section py-3 lh-lg'>
+        <div className='title-section py-2 lh-lg' data-aos="zoom-in-up"data-aos-duration='4000'>
           <p className='fs-1 white-c text-uppercase fw-bold text-center'>about me</p>
         </div>
         <div className='d-flex align-items-center justify-content-around'>
-          <div className="image d-none d-md-block" data-aos="fade-left"data-aos-duration='4000'>
+          <div className="image d-none d-md-block" data-aos="fade-up"data-aos-duration='4000'>
             <img src={about} alt="../imgs/landing.gif"/>
           </div>
-          <div className='info' data-aos="fade-right" data-aos-duration='4000'>
+          <div className='info' data-aos="zoom-in-up" data-aos-duration='4000'>
             <p className='white-c text-capitalize fw-bold position-relative py-2 px-3 my-3 mx-2'>name : taha abdulrahman</p>
             <p className='white-c text-capitalize fw-bold position-relative py-2 px-3 my-3 mx-2'>front-end developer. I love crafting user-friendly interfaces and bringing designs to life through programming. With an eye for detail and dedication to creating seamless user experiences, I strive to deliver high-quality and innovative solutions. Explore my portfolio to see some of my projects and feel free to reach out for collaborations or opportunities</p>
             <p className='white-c                 fw-bold position-relative py-2 px-3 my-3 mx-2'><span className='text-capitalize'>email</span> : tahaabdelrahman487@gmail.com</p>
