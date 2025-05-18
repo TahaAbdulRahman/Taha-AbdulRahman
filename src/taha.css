@@ -20,6 +20,9 @@
 .dark-c {
   color: var(--dark-color) ;
 }
+.bg1-c {
+  color: var(--bg1-color) ;
+}
 .bg1 {
   background-color: var(--bg1-color) ;
 }
@@ -40,10 +43,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+Link{
+  text-decoration: none;
+}
 /* Sections */
 @media (max-width: 762px) {
   .h-section{
-    height: calc(100vh - 163px);
+    height: calc(100vh - 153px);
   }
 }
 @media (min-width: 762px) {
@@ -61,6 +67,14 @@ code {
     height: calc(100vh - 141px);
   }
 }
+
+@media (max-width: 762px) {
+  .projects,
+  .contact-me{
+    height: 100%;
+  }
+}
+
 /* Header */
 .navbar{
   background-color: #4e25c0;
@@ -173,25 +187,42 @@ code {
 
 /* skills */
 .skills .image{
-  width: 50%;
-  height: 50%;
+  width: 80%;
 }
 .skills .image img{
   width: 100%;
 }
 @media (max-width: 972px) {
 .skills .image{
-  width: 70%;
+  width: 100%;
   margin-bottom: 20px;
 }
 }
-    
-
-
-
-
-
-
+/* projects */
+.projects .cardp{
+  background-color: #e9ecef5e;
+}
+/* contact-me */
+.contact-me .image{
+  width: 40%;
+}
+.contact-me .info{
+  width: 60%;
+}
+.contact-me .info textarea{
+  height: 200px;
+  border: 1px solid var(--dark-color);
+}
+.contact-me .info input,
+.contact-me .info textarea{
+  max-width: 100%;
+}
+@media (max-width: 762px) {
+  .contact-me .image,
+  .contact-me .info{
+    width: 100%;
+  }
+}
 
 
 

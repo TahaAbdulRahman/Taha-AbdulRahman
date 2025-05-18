@@ -1,15 +1,72 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import menu from '../imgs/proj/menu.png'
+import nmec from '../imgs/proj/nmec.png'
+import portfolio from '../imgs/proj/portfolio.png'
+import { Link } from 'react-router';
 
 const Project = () => {
+    const unsafeProps = {
+    target: "_blank",
+  };
   return (
-    <div className='h-section bg2'>
+    <div className='h-section bg2 projects'>
       <Container>
-        <div className='title-section py-2 lh-lg' data-aos="fade-left"data-aos-duration='4000'>
-          <p className='fs-1 white-c text-uppercase fw-bold text-center'>projects</p>
+        <div className='title-section  lh-lg'  data-aos="fade-left"data-aos-duration='4000'>
+          <h2 className='fs-1 white-c text-uppercase fw-bold text-center'>my works</h2>
+          <p className=' fs-4 white-c text-uppercase fw-bold text-center'>My Journey of Growth Through Projects</p>
         </div>
-        <div>
-        </div>
+        <Row>
+          <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
+            <Link className='text-decoration-none ' to="https://tahaabdulrahman.github.io/NMEC/" target={unsafeProps}>
+              <Card className='cardp white-c h-100' style={{ width: '100%' }}>
+                <Card.Img variant="top" src={nmec} />
+                <Card.Body>
+                  <Card.Title className="text-uppercase bg1-c fw-bold fs-3">nmec <br/><span className="text-capitalize fw-bold fs-6">(national-museum-of-egyptian)</span></Card.Title>
+                  <Card.Text>
+                    <p className='text-uppercase fs-6 bg1-c'>html, css & js</p>
+                    <span className='text-capitalize fs-6'>
+                    The NMEC is the first of its kind in Egypt and the Arab world. It presents the full range of the richness and diversity of Egyptian civilization throughout.
+                    </span>
+                  </Card.Text>
+                  <Button variant="primary">live dimo</Button>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+          <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
+            <Link className='text-decoration-none ' to="https://elsultan-2104a.web.app/" target={unsafeProps}>
+              <Card className='cardp white-c h-100' style={{ width: '100%' }}>
+                <Card.Img variant="top" src={menu} />
+                <Card.Body>
+                  <Card.Title className="text-uppercase bg1-c fw-bold fs-3">resturant menu <br/><span className="text-capitalize fw-bold fs-6">(menu)</span></Card.Title>
+                  <Card.Text>
+                    <p className='text-uppercase fs-6 bg1-c'>react.js</p> 
+                    <span className='text-capitalize fs-6'>It contains all the current offers and available items with a picture of each item.</span> 
+                  </Card.Text>
+                  <Button variant="primary">live dimo</Button>  
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+          
+          <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
+            <Link className='text-decoration-none ' to="https://tahaabdulrahman.github.io/portfolio-template/" target={unsafeProps}>
+              <Card className='cardp white-c h-100' style={{ width: '100%' }}>
+                <Card.Img variant="top" src={portfolio} />
+                <Card.Body>
+                  <Card.Title className="text-uppercase bg1-c fw-bold fs-3">portfolio <br/><span className="text-capitalize fw-bold fs-6">(A personal website)</span></Card.Title>
+                  <Card.Text>
+                    <p className='text-uppercase fs-6 bg1-c'>html, css & js</p> 
+                    <span className='text-capitalize fs-6'>A personal website containing a list of the work, skills, services provided, and methods of communication.</span>
+                  </Card.Text>
+                  <Button variant="primary">live dimo</Button>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+        </Row>
+
       </Container>
     </div>
   );

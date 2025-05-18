@@ -15,8 +15,8 @@ const Footer = () => {
   return (
     <div className="navbar">
       <Container>
-        <div className="text dark-c m-auto fs-4 fw-bold">
-          <p className="m-auto">Made By Taha Abdulrahmman ©2024</p>
+        <div className="text dark-c m-auto fs-md-4 fw-bold">
+          <p className="m-auto">Made By Taha Abdulrahmman ©2025</p>
         </div>
         <div className="m-auto">
           <Link
@@ -35,7 +35,7 @@ const Footer = () => {
           </Link>
           <Link
             className="icon fs-2 mx-2 dark-c"
-            hrtoef="https://github.com/TahaAbdulRahman?tab=repositories"
+            to="https://github.com/TahaAbdulRahman?tab=repositories"
             target={unsafeProps}
           >
             <FontAwesomeIcon icon={faGithub} />
