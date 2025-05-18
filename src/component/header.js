@@ -17,12 +17,11 @@ function Header() {
     <Navbar expand="lg" className="navbar">
       <Container className="">
         <Navbar.Brand href="">
-          <div className="image imglogo">
+          <div className="image imglogo d-none d-lg-block">
             <img src={logo} alt="logo" />
           </div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="ms-auto">
+        <Navbar.Collapse id="basic-navbar-nav" className="ms-auto d-lg-block d-none">
           <Nav className="m-auto">
             <NavLink
               className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
@@ -34,7 +33,7 @@ function Header() {
               className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
               to="/about"
             >
-              about
+              about me
             </NavLink>
             <NavLink
               className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
@@ -56,13 +55,22 @@ function Header() {
             </NavLink>
           </Nav>
         </Navbar.Collapse>
-        <div className="icons bg-success">
-          <Link></Link>
-          <FontAwesomeIcon icon={faHouse} />
-          <FontAwesomeIcon icon={faAddressCard} />
-          <FontAwesomeIcon icon={faAward} />
-          <FontAwesomeIcon icon={faCircleUser} />
-          <FontAwesomeIcon icon={faEnvelope} />
+        <div className="icons d-block d-lg-none m-auto ">
+          <Link className="fw-bold mx-3" to="/home">
+            <FontAwesomeIcon icon={faHouse} />
+          </Link>
+          <Link className="fw-bold mx-3"  to="/about">
+            <FontAwesomeIcon icon={faAddressCard} />
+          </Link>
+          <Link className="fw-bold mx-3" to="/skills">
+            <FontAwesomeIcon icon={faAward} />
+          </Link>
+          <Link className="fw-bold mx-3"  to="/projects">
+            <FontAwesomeIcon icon={faCircleUser} />
+          </Link>
+          <Link className="fw-bold mx-3"  to="/contact">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </Link>
         </div>
       </Container>
     </Navbar>

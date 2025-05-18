@@ -79,6 +79,9 @@ Link{
 .navbar{
   background-color: #4e25c0;
 }
+.navbar .icons{
+  font-size: 38.5px;
+}
 .imglogo{
   width: 60px;
 }

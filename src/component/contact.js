@@ -9,8 +9,8 @@ const Contact = () => {
         </div>  
         <div>
           <div className='d-flex justify-content-around align-items-center flex-column flex-md-row'> 
-            <div className='image p-3'>
-              <img className='w-100 rounded-circle' src={contact} alt='contact me'/>
+            <div className='image p-3 d-flex justify-content-around align-items-center flex-column'>
+              <img className=' w-75 rounded-circle' src={contact} alt='contact me'/>
               <p className='fs-3 my-3 text-capitalize white-c fw-bold'>
                 If You Have a Question, Or Just Want To Get In Touch, Use this form.I`m looking Forward to Hearing From You.
               </p>
