@@ -15,11 +15,12 @@ const About = () => {
   return (
     <div className='h-section about bg2'>
       <Container className='h-100 '>
-        <div className='title-section py-2 lh-lg' data-aos="zoom-in-up"data-aos-duration='4000'>
-          <p className='fs-1 white-c text-uppercase fw-bold text-center'>about me</p>
+        <div className='title-section '  data-aos="fade-left"data-aos-duration='4000'>
+          <p className='title white-c text-uppercase fw-bold text-center'>about me</p>
+          <p className=' white-c text-uppercase fw-bold text-center'> send me massage now</p>
         </div>
         <div className='d-flex align-items-center justify-content-around'>
-          <div className="image d-none d-md-block" data-aos="fade-up"data-aos-duration='4000'>
+          <div className="image d-none d-lg-block" data-aos="fade-up"data-aos-duration='4000'>
             <img src={about} alt="../imgs/landing.gif"/>
           </div>
           <div className='info' data-aos="zoom-in-up" data-aos-duration='4000'>

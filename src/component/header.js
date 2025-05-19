@@ -14,9 +14,10 @@ import {
 
 function Header() {
   return (
-    <Navbar expand="lg" className="navbar">
-      <Container className="">
-        <Navbar.Brand href="">
+    <div className="header h-100">
+      <Navbar expand="lg" className="navbar ">
+      <Container >
+        <Navbar.Brand >
           <div className="image imglogo d-none d-lg-block">
             <img src={logo} alt="logo" />
           </div>
@@ -74,6 +75,7 @@ function Header() {
         </div>
       </Container>
     </Navbar>
+  </div>
   );
 }
 

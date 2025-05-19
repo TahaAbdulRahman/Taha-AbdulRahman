@@ -10,11 +10,11 @@ const Project = () => {
     target: "_blank",
   };
   return (
-    <div className='h-section bg2 projects'>
+    <div className='h-section bg2 projects pt-3'>
       <Container>
-        <div className='title-section  lh-lg'  data-aos="fade-left"data-aos-duration='4000'>
-          <h2 className='fs-1 white-c text-uppercase fw-bold text-center'>my works</h2>
-          <p className=' fs-4 white-c text-uppercase fw-bold text-center'>My Journey of Growth Through Projects</p>
+        <div className='title-section '  data-aos="fade-left"data-aos-duration='4000'>
+          <p className='title white-c text-uppercase fw-bold text-center'>my works</p>
+          <p className=' white-c text-uppercase fw-bold text-center'> My Journey of Growth Through Projects</p>
         </div>
         <Row>
           <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>

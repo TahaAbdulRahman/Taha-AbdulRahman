@@ -27,7 +27,7 @@ const Landing = () => {
           <a className="text-capitalize text-decoration-none dark-c fw-bold" download="/public/t">Dounload Resume</a>
           </Button> */}
         </div>
-        <div className="image d-none d-md-block" data-aos="fade-right" data-aos-duration='4000'>
+        <div className="image d-none d-lg-block" data-aos="fade-right" data-aos-duration='4000'>
           <img src={land} alt="../imgs/landing.gif"/>
         </div>
       </Container>

@@ -13,9 +13,9 @@ const Footer = () => {
     target: "_blank",
   };
   return (
-    <div className="navbar">
-      <Container>
-        <div className="text dark-c m-auto fs-md-4 fw-bold">
+    <div className="navbar footer">
+      <Container className="h-100">
+        <div className="text dark-c m-auto fw-bold">
           <p className="m-auto">Made By Taha Abdulrahmman ©2025</p>
         </div>
         <div className="m-auto">

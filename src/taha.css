@@ -49,12 +49,12 @@ Link{
 /* Sections */
 @media (max-width: 762px) {
   .h-section{
-    height: calc(100vh - 153px);
+    height: calc(100vh - 157px);
   }
 }
 @media (min-width: 762px) {
   .h-section{
-    height: calc(100vh - 137px);
+    height: calc(100vh - 157px);
   }
 }
 @media (min-width: 972px) {
@@ -74,6 +74,41 @@ Link{
     height: 100%;
   }
 }
+/* title-section */
+.title-section{
+  margin:0 0 60px 0;
+  padding:0 0 1px 0;
+  position: relative;
+}
+.title-section::before,
+.title-section::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 3px;
+}
+.title-section::before{
+  width: 200px;
+  bottom: 10px;
+  background-color: var(--second-color);
+}
+.title-section::after{
+  bottom: 3px;
+  width: 150px;
+  background-color: var(--main-color);
+}
+.title-section p.title{
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+}
+.title-section p:last-child{
+  font-size: 20px;
+}
+
+
 
 /* Header */
 .navbar{
@@ -91,6 +126,9 @@ Link{
 }
 .active{
   background-color: #eee;
+}
+.header{
+  height: 78px;
 }
 
 /* landing */
@@ -201,10 +239,15 @@ Link{
   margin-bottom: 20px;
 }
 }
+
+
 /* projects */
 .projects .cardp{
   background-color: #e9ecef5e;
 }
+
+
+
 /* contact-me */
 .contact-me .image{
   width: 40%;
@@ -231,4 +274,27 @@ Link{
 
 
 
+/* footer */
+.footer{
+  height: 64px;
+}
+@media (min-width:1170px) {
+  .footer .text {
+    font-size: 25px;
+  }
+}
+@media (max-width:972px) {
+  .footer .text {
+    /* font-size: 25px; */
+    font-size: 20px;
+  }
+  .footer{
+    height: auto;
+  }
+}
 
+.header,
+.footer,
+.h-section{
+  overflow: hidden;
+}
