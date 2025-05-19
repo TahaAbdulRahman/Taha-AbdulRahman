@@ -7,8 +7,17 @@ import Project from './component/project';
 import ContactUs from './component/contact';
 import Footer from './component/footer';
 import { BrowserRouter, Route, Routes } from 'react-router';
+import { useEffect, useState } from 'react';
+import Loading from './component/loading';
 
 function App() {
+  const [loading, setLoading] = useState(true)
+    useEffect(() => {
+        setTimeout(() => setLoading(false), 3300)
+    }, [])
+    if (loading) {
+        return <Loading/>
+    }
   return (
     <div className="App">
       <BrowserRouter>
