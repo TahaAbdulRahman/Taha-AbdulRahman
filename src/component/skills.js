@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <div className='h-section skills bg1'>
       <Container>
-        <div className='title-section '  data-aos="fade-left"data-aos-duration='4000'>
+        <div className='title-section'  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>my skills</p>
           <p className=' white-c text-uppercase fw-bold text-center'> whate i do</p>
         </div>

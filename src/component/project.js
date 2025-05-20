@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import menu from '../imgs/proj/menu.png'
 import nmec from '../imgs/proj/nmec.png'
@@ -10,7 +9,7 @@ const Project = () => {
     target: "_blank",
   };
   return (
-    <div className='h-section bg2 projects pt-3'>
+    <div className='h-section bg2 projects '>
       <Container>
         <div className='title-section '  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>my works</p>

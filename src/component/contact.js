@@ -31,14 +31,14 @@ const Contact = () => {
   return (
     <div className=" h-section contact-me bg1 overview-hidden" id="contact">
       <Container className="">
-        <div className='title-section m-1 p-1'  data-aos="fade-left"data-aos-duration='4000'>
+        <div className='title-section'  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>contact me</p>
           <p className=' white-c text-uppercase fw-bold text-center'> send me massage now</p>
         </div>
         <Row className="bg2">
           <Col xs="12" lg="5">
             <div className="info text-center ">
-              <div className=" w-100 white-c fs-4">
+              <div className=" w-100 white-c fs-4 mt-3">
                 <img
                   className="w-50 rounded-circle"
                   src={logo}
