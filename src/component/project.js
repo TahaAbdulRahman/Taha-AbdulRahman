@@ -17,12 +17,12 @@ const Project = () => {
         </div>
         {/* Content Section  */}
         <Row>
-          <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
+          <Col className='my-1 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
             <Link className='text-decoration-none ' to="https://tahaabdulrahman.github.io/NMEC/" target={unsafeProps}>
-              <Card className='cardp white-c h-100' style={{ width: '100%' }}>
+              <Card className='cardp white-c h-100'>
                 <Card.Img variant="top" src={nmec} />
                 <Card.Body>
-                  <Card.Title className="text-uppercase bg1-c fw-bold fs-3">nmec <br/><span className="text-capitalize fw-bold fs-6">(national-museum-of-egyptian)</span></Card.Title>
+                  <Card.Title className="text-uppercase bg1-c fw-bold fs-3">nmec</Card.Title>
                   <Card.Text>
                     <p className='text-uppercase fs-6 bg1-c'>html, css & js</p>
                     <span className='text-capitalize fs-6'>
@@ -34,9 +34,9 @@ const Project = () => {
               </Card>
             </Link>
           </Col>
-          <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
+          <Col className='my-1 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
             <Link className='text-decoration-none ' to="https://elsultan-2104a.web.app/" target={unsafeProps}>
-              <Card className='cardp white-c h-100' style={{ width: '100%' }}>
+              <Card className='cardp white-c h-100'>
                 <Card.Img variant="top" src={menu} />
                 <Card.Body>
                   <Card.Title className="text-uppercase bg1-c fw-bold fs-3">resturant menu <br/><span className="text-capitalize fw-bold fs-6">(menu)</span></Card.Title>
@@ -50,9 +50,9 @@ const Project = () => {
             </Link>
           </Col>
           
-          <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
+          <Col className='my-1 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
             <Link className='text-decoration-none ' to="https://tahaabdulrahman.github.io/portfolio-template/" target={unsafeProps}>
-              <Card className='cardp white-c h-100' style={{ width: '100%' }}>
+              <Card className='cardp white-c h-100'>
                 <Card.Img variant="top" src={portfolio} />
                 <Card.Body>
                   <Card.Title className="text-uppercase bg1-c fw-bold fs-3">portfolio <br/><span className="text-capitalize fw-bold fs-6">(A personal website)</span></Card.Title>

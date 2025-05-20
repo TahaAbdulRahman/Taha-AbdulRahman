@@ -5,7 +5,7 @@ import logo from "../imgs/logo.webp";
 import "../taha.css";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookOpen, faComment, faDiagramProject, faHouse, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faBookOpen, faComment, faDiagramProject, faHouse, faServer, faUser } from "@fortawesome/free-solid-svg-icons";
 function Header() {
   return (
     <div className="header h-100">
@@ -57,19 +57,22 @@ function Header() {
           </Nav>
         </Navbar.Collapse>
         <div className="icons d-block d-lg-none m-auto ">
-          <Link className="fw-bold mx-3 i" to="/home">
+          <Link className="fw-bold mx-2 i" to="/home">
             <FontAwesomeIcon icon={faHouse} />
           </Link>
-          <Link className="fw-bold mx-3 i"  to="/about">
+          <Link className="fw-bold mx-2 i"  to="/about">
             <FontAwesomeIcon icon={faUser} />
           </Link>
-          <Link className="fw-bold mx-3 i" to="/skills">
+          <Link className="fw-bold mx-2 i"  to="/services">
+            <FontAwesomeIcon icon={faServer} />
+          </Link>
+          <Link className="fw-bold mx-2 i" to="/skills">
             <FontAwesomeIcon icon={faBookOpen} />
           </Link>
-          <Link className="fw-bold mx-3 i"  to="/projects">
+          <Link className="fw-bold mx-2 i"  to="/projects">
             <FontAwesomeIcon icon={faDiagramProject} />
           </Link>
-          <Link className="fw-bold mx-3 i"  to="/contact">
+          <Link className="fw-bold mx-2 i"  to="/contact">
             <FontAwesomeIcon icon={faComment} />
           </Link>
         </div>

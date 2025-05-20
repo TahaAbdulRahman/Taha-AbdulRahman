@@ -20,7 +20,7 @@ const About = () => {
           <p className=' white-c text-uppercase fw-bold text-center'></p>
         </div>
         {/* Content Section  */}
-        <div className='d-flex align-items-center justify-content-around'>
+        <div className='d-flex content align-items-center justify-content-around'>
           <div className="image d-none d-lg-block" data-aos="fade-up"data-aos-duration='4000'>
             <img src={about} alt="../imgs/landing.gif"/>
           </div>
@@ -30,7 +30,7 @@ const About = () => {
             <p className='white-c                 fw-bold position-relative py-2 px-3 my-3 mx-2'><span className='text-capitalize'>email</span> : tahaabdelrahman487@gmail.com</p>
             <p className='white-c text-capitalize fw-bold position-relative py-2 px-3 my-3 mx-2'>age : 27</p>
             <p className='white-c text-capitalize fw-bold position-relative py-2 px-3 my-3 mx-2'>adrress : Egypt</p>
-            <div className="my-4   p-2 ">
+            <div className="my-4  p-lg-2 ">
               <NavLink  className='btntrans position-relative dark-c fs-4 fw-bold my-1 mx-0 py-3 px-5 text-capitalize text-decoration-none' to='/contact'>Contact Me</NavLink>
             </div>
           </div>

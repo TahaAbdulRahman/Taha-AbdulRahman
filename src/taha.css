@@ -87,7 +87,6 @@ Link{
   position: relative;
 }
 
-
 .title-section::before,
 .title-section::after{
   content: "";
@@ -115,7 +114,6 @@ Link{
 .title-section p:last-child{
   font-size: 20px;
 }
-
 /* Header */
 .navbar{
   background-color: #6745c4;
@@ -276,7 +274,16 @@ Link{
 }
 @media (max-width: 972px) {
   .about .info p{
-    font-size: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .title-section{
+    margin:0;
+  }
+  .about .content{
+    margin-top: -20px;
   }
 }
 /* Services */
@@ -294,16 +301,27 @@ Link{
   height: 120px;
 }
 @media (max-width: 972px) {
-.skills .image{
-  width: 100%;
-  margin-bottom: 20px;
+  .skills .image{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skills .image img{
+    height: 90px;
+  }
 }
-}
-
 
 /* projects */
 .projects .cardp{
   background-color: #e9ecef5e;
+}
+
+.projects .cardp{
+  width: 80%;
+}
+@media (max-width: 972px) {
+  .projects .cardp{
+    width: 100%;
+  }
 }
 
 
@@ -333,9 +351,7 @@ Link{
 
 
 /* footer */
-/* .footer{
-  height: 64px;
-} */
+
 @media (min-width:1170px) {
   .footer .text {
     font-size: 25px;
@@ -343,7 +359,7 @@ Link{
 }
 @media (max-width:972px) {
   .footer .text {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
