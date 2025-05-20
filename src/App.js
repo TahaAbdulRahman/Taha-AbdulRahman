@@ -9,6 +9,7 @@ import Footer from './component/footer';
 import { BrowserRouter, Route, Routes } from 'react-router';
 import { useEffect, useState } from 'react';
 import Loading from './component/loading';
+import Services from './component/Services';
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path='/home' index element={<Landing />} />
           <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/contact" element={<ContactUs />} />

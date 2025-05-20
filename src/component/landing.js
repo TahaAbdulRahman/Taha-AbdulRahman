@@ -4,6 +4,9 @@ import { NavLink } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+// import Particles from "react-tsparticles";
+
+
 const Landing = () => {
     AOS.init({
       offset: 200,
@@ -13,6 +16,7 @@ const Landing = () => {
     });
   return (
     <div  className='h-section landing'>
+
       <Container className="h-100 d-flex align-items-center justify-content-center">
         <div className="info" data-aos="fade-left" data-aos-duration='4000'>
           <p className=" fw-bold main-c  fs-3 mb-2 text-capitalize">Hello I'am</p>
@@ -23,12 +27,12 @@ const Landing = () => {
             <NavLink  className='btntrans position-relative dark-c fs-4 fw-bold my-1 mx-2 py-3 px-5 text-capitalize text-decoration-none' to='/contact'>Contact Me</NavLink>
           </div>
           <br/>
-          {/* <Button className="my-2">
-          <a className="text-capitalize text-decoration-none dark-c fw-bold" download="/public/t">Dounload Resume</a>
-          </Button> */}
         </div>
         <div className="image d-none d-lg-block" data-aos="fade-right" data-aos-duration='4000'>
           <img src={land} alt="../imgs/landing.gif"/>
+          {/* <Button className="my-2">
+          <a className="text-capitalize text-decoration-none dark-c fw-bold" download="/public/t">Dounload Resume</a>
+          </Button> */}
         </div>
       </Container>
     </div>

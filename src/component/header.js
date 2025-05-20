@@ -19,31 +19,37 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav" className="ms-auto d-lg-block d-none">
           <Nav className="m-auto">
             <NavLink
-              className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
+              className="dark-c fs-4 fw-bold my-1 mx-1 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
               to="/home"
             >
               home
             </NavLink>
             <NavLink
-              className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
+              className="dark-c fs-4 fw-bold my-1 mx-1 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
               to="/about"
             >
               about me
             </NavLink>
             <NavLink
-              className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
+              className="dark-c fs-4 fw-bold my-1 mx-1 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
+              to="/services"
+            >
+              Services
+            </NavLink>
+            <NavLink
+              className="dark-c fs-4 fw-bold my-1 mx-1 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
               to="/skills"
             >
               skills
             </NavLink>
             <NavLink
-              className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
+              className="dark-c fs-4 fw-bold my-1 mx-1 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
               to="/projects"
             >
               projects
             </NavLink>
             <NavLink
-              className="dark-c fs-4 fw-bold my-1 mx-2 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
+              className="dark-c fs-4 fw-bold my-1 mx-1 py-2 px-4 rounded-pill text-capitalize text-decoration-none"
               to="/contact"
             >
               contact

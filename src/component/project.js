@@ -9,12 +9,13 @@ const Project = () => {
     target: "_blank",
   };
   return (
-    <div className='h-section bg2 projects '>
+    <div className='h-section bg1 projects '>
       <Container>
         <div className='title-section '  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>my works</p>
           <p className=' white-c text-uppercase fw-bold text-center'> My Journey of Growth Through Projects</p>
         </div>
+        {/* Content Section  */}
         <Row>
           <Col className='my-3 my-md-0' xs="12" md="4" data-aos="zoom-in-up"data-aos-duration='4000'>
             <Link className='text-decoration-none ' to="https://tahaabdulrahman.github.io/NMEC/" target={unsafeProps}>

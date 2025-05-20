@@ -29,13 +29,14 @@ const Contact = () => {
   };
 
   return (
-    <div className=" h-section contact-me bg1 overview-hidden" id="contact">
+    <div className=" h-section contact-me bg2 overview-hidden" id="contact">
       <Container className="">
         <div className='title-section'  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>contact me</p>
-          <p className=' white-c text-uppercase fw-bold text-center'> send me massage now</p>
+          <p className=' white-c text-uppercase fw-bold text-center'> send me a massage now</p>
         </div>
-        <Row className="bg2">
+        {/* Content Section  */}
+        <Row className="bg1">
           <Col xs="12" lg="5">
             <div className="info text-center ">
               <div className=" w-100 white-c fs-4 mt-3">
