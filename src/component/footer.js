@@ -14,6 +14,7 @@ const Footer = () => {
   };
   return (
     <div className="navbar footer">
+      
       <Container className="h-100">
         <div className="text dark-c m-auto fw-bold">
           <p className="m-auto">Made By Taha Abdulrahmman ©2025</p>

@@ -6,10 +6,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Container, Row } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 
 const Services = () => {
   return (
     <div className="h-section services bg1">
+      <Helmet>
+        <title>Services</title>
+      </Helmet>
       <Container>
         <div
           className="title-section "

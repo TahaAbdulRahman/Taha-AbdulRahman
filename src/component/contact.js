@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Swal from "sweetalert2";
 import logo from "../imgs/contact.webp";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const form = useRef();
@@ -30,6 +31,9 @@ const Contact = () => {
 
   return (
     <div className=" h-section contact-me bg2 overview-hidden" id="contact">
+      <Helmet>
+        <title>Contact Me</title>
+      </Helmet>
       <Container className="">
         <div className='title-section'  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>contact me</p>

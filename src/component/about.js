@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import '../taha.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from 'react-helmet';
 // import { useEffect } from 'react';
 const About = () => {
     AOS.init({
@@ -14,6 +15,9 @@ const About = () => {
     });
   return (
     <div className='h-section about bg2'>
+      <Helmet>
+        <title>About Me</title>
+      </Helmet>
       <Container className='h-100 '>
         <div className='title-section' data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>about me</p>

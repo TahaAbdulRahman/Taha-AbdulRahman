@@ -10,6 +10,7 @@ import commandline from '../imgs/skills/commandline.webp';
 import '../taha.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from "react-helmet";
 const Skills = () => {
   AOS.init({
     offset: 200,
@@ -20,6 +21,9 @@ const Skills = () => {
   
   return (
     <div className='h-section skills bg2'>
+      <Helmet>
+        <title>Skills</title>
+      </Helmet>
       <Container>
         <div className='title-section'  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>my skills</p>

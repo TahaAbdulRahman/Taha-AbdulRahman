@@ -3,6 +3,7 @@ import menu from '../imgs/proj/menu.png'
 import nmec from '../imgs/proj/nmec.png'
 import portfolio from '../imgs/proj/portfolio.png'
 import { Link } from 'react-router';
+import { Helmet } from "react-helmet";
 
 const Project = () => {
     const unsafeProps = {
@@ -10,6 +11,9 @@ const Project = () => {
   };
   return (
     <div className='h-section bg1 projects '>
+      <Helmet>
+        <title>Projects</title>
+      </Helmet>
       <Container>
         <div className='title-section '  data-aos="fade-left"data-aos-duration='4000'>
           <p className='title white-c text-uppercase fw-bold text-center'>my works</p>
